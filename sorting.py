@@ -3,9 +3,11 @@ def bubble_sort(A):
     while swapped:
         swapped = False
         for i in range(len(A) - 1):
-            a = A[i]
-            b = A[i + 1]
-            if a > b:
-                a, b = b, a
+            if A[i] > A[i+1]:
+                A[i], A[i+1] = A[i+1], A[i]
                 swapped = True
     return A
+
+print('hello word')
+L = [2, 4, 5, 7, 1, 0, -12]
+print(bubble_sort(L))
