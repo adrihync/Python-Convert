@@ -1,0 +1,11 @@
+def bubble_sort(A):
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(len(A) - 1):
+            a = A[i]
+            b = A[i + 1]
+            if a > b:
+                a, b = b, a
+                swapped = True
+    return A
