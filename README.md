@@ -13,4 +13,6 @@ Previously I have used:
 
 In this repository are some python code snippets that are from my journey to python.
 
-You can play with them using Repl.it [![Run on Repl.it](https://repl.it/badge/github/adrihync/Python-Convert)](https://repl.it/github/adrihync/Python-Convert)
+You can play with them using Repl.it 
+
+[![Run on Repl.it](https://repl.it/badge/github/adrihync/Python-Convert)](https://repl.it/github/adrihync/Python-Convert)
